@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000/predict';
+const API_URL = 'https://heart-scan-backend-6rjc.onrender.com';
 
 document.getElementById('predictionForm').addEventListener('submit', async (e) => {
     e.preventDefault();
